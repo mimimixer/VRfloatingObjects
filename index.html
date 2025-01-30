@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>My spiral thingy</title>
+		<link rel="icon" type="image/x-icon" href="./spiral.ico">
+		<style>
+			body { margin: 0; }
+		</style>
+	</head>
+	<body>
+		<div id="info"></div>
+		<a href="https://threejs.org" target="_blank" rel="noopener">Spiral Thingy</a>
+
+		<script type="importmap">
+			{
+				"imports": {
+					"three": "./dependencies/three.module.js",
+					"three/addons/": "./dependencies/jsm/",
+					"stats-gl": "https://cdn.jsdelivr.net/npm/stats-gl@2.2.8/dist/main.js"
+				}
+			}
+		</script> 
+
+       <!--
+        <script type="importmap">
+            {
+              "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@<version>/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@<version>/examples/jsm/"
+              }
+            }
+			  			{
+				"imports": {
+					"three": "./node_modules/three/build/three.module.js",
+					"three/addons/": "./node_modules/three/examples/jsm/",
+					"stats-gl": "https://cdn.jsdelivr.net/npm/stats-gl@2.2.8/dist/main.js"
+				}
+			}
+          </script>
+		-->
+		<script type="module" src="./main.js"></script>
+	</body>
+
+</html>
