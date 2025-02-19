@@ -2,7 +2,7 @@
 
 **an online installation of floating images around and trough the viewer. The viewer can move between the trajectories of the images, but not interact.**
 
-The code allows for changing from the current static images to videos inside the floating objects when an folder of videos is added.
+The code allows for changing from the current static images to videos inside the floating objects when an folder of videos is added. The current images have been generated during the project https://github.com/mimimixer/feedbackLoopsWithGenAI
 
 The installation is currently accessible online via browser on https://ar.chim.ai/elena_VR/ 
 
